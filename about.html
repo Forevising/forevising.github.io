@@ -1,0 +1,88 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forevising</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="about-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>About Us</h1>   
+            <br>  
+            <h2>"Don't just react to life events, but be proactively prepared for them. "</h2>
+            <br>
+            <p>In 2013, I embarked on my journey as an insurance agent with some reluctance. The idea of delving into the realm of insurance didn't quite spark excitement within me initially; it felt more like a prudent step to hold a license as a precautionary more than a passion. However, as time unfolded and life unveiled its uncertainties, my perspective underwent a profound shift.
+                <br>
+                <br>
+                Witnessing the passing of loved ones, including the unforeseen loss of my own mother, brought into sharp focus the stark reality of unpreparedness when it comes to life's inevitable events. The poignant moments of individuals resorting to "GoFundMe" campaigns, unsure if the desired amount will even be met in the midst of grief etched a deep sorrow within me. The emotional toll and financial distress endured by families grappling with unforeseen circumstances resonated deeply.
+                <br>
+                <br>
+                On a personal note, I experienced firsthand the transformative power of having a life insurance policy. The unexpected freedom it provided to pursue my entrepreneurial dreams following my mother's passing illuminated the significance of financial preparedness and the impact it can have on shaping one's future.
+                <br>
+                <br>
+                It is through these poignant encounters and revelations that Forevising emerged. I am driven by a profound desire to guide and empower others in navigating life's uncertainties, advocating for foresight, preparedness, and financial security. With a fervent commitment to helping individuals and families prepare for the foreseen and cultivate a sense of stability, I stand ready to be a beacon of support and guidance on their journey towards a secure and resilient future.
+                </p>
+                <br>
+            <a href="contact.html" class="hero-btn red-btn">SCHEDULE MY FREE 1:1 SESSION</a>
+
+            <h1>
+                <br>
+                Our Mission</h1>
+                <br>
+                <h2>"Helping individuals and families prepare for life's unforeseen turning points."</h2>
+            <br>
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>Follow Us</h4>
+    <div class="icons">
+        <a href="https://www.facebook.com/forevising"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/mynue-xiong/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/mynue-xiong/"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <a href="https://www.facebook.com/forevising" class="footer-link"><p>True strategy by Forevising</p></a>
+</section>    
+
+
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

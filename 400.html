@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+  <section class="blog-header">
+      <nav>
+          <a href="index.html"><img src="images/logo.png"></a>
+          <div class="nav-links" id="navLinks">  
+              <i class="fa fa-close" onclick="hideMenu()"></i>
+              <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="services.html">SERVICES</a></li>
+                  <li><a href="blog.html">BLOG</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+
+  </section>
+
+<!---------- Blog Posts ---------->
+<section class="blog-content">
+    
+    <div class="post-row">
+        <img src="images/400-crop.jpg" alt="">
+        <div class="blog-post">
+        <h2>The $400 Dilemma: Why Having an Emergency Fund is No Joke</h2>
+        <p class="post-date">1 February 2024 / Forevising</p>
+        <p class="post-paragraph">
+            In a world filled with unexpected plot twists and turns, being financially prepared is no laughing matter. It might sound like a punchline from a comedy sketch, but the reality is that a surprising 44% of people are not ready to handle a mere $400 emergency expense. Yes, you read that right - $400!
+            <br>
+            <br>
+            Now, before you burst into nervous laughter or start frantically checking your own emergency fund, let's talk about why it's crucial to be prepared for life's unforeseen curveballs.
+            <br>
+            <br>
+            First off, unexpected expenses are like unbilled extras in the movie of life - they can pop up when you least expect them. Whether it's a sudden car repair, a medical bill, or a leaky roof, having a financial safety net can save you from slipping on life's banana peels.
+            <br>
+            <br>
+            Imagine this: you're cruising along life's highway when suddenly, you hit a pothole labeled "$400 Emergency." Without an emergency fund, you might find yourself careening off course, calling for financial roadside assistance, or worse, swerving into debt.
+            <br>
+            <br>
+            But fear not, intrepid reader! By building up your emergency fund, you're not just preparing for the unexpected - you're giving yourself peace of mind and financial resilience. It's like having a superhero cape made of cash, ready to swoop in and save the day when trouble comes knocking.
+            <br>
+            <br>
+            So, let's turn that $400 dilemma into a punchline of the past. Start squirreling away those emergency funds, bolstering your financial fortress, and laughing in the face of unexpected expenses. Remember, in the grand comedy of life, being financially prepared is no joke - it's the ultimate plot twist that can save the day!
+
+
+        </p>
+
+        </div> 
+    </div>
+
+    </section>
+
+<section class="footer">
+    <h4>Follow Us</h4>
+    <div class="icons">
+        <a href="https://www.facebook.com/forevising"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/mynue-xiong/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/mynue-xiong/"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <a href="https://www.facebook.com/forevising" class="footer-link"><p>True strategy by Forevising</p></a>
+</section>    
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
